@@ -1,0 +1,66 @@
+<!-- h06.html -->
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vormide loomine</title>
+</head>
+<body>
+    <h1>Vormide loomine</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="kasutajanimi">Kasutajanimi: (max pikkus 6)</label></td>
+                <td><input type="text" id="kasutajanimi" name="kasutajanimi" maxlength="6" required></td>
+            </tr>
+            <tr>
+                <td><label for="kursus">Kursus: (max pikkus 3)</label></td>
+                <td><input type="text" id="kursus" name="kursus" maxlength="3" required></td>
+            </tr>
+            <tr>
+                <td><label for="osakonna-number">Osakonna number:</label></td>
+                <td><input type="number" id="osakonna-number" name="osakonna-number" value="1" required></td>
+            </tr>
+            <tr>
+                <td><label for="parool">Parool:</label></td>
+                <td><input type="password" id="parool" name="parool" required></td>
+            </tr>
+            <tr>
+                <td><label for="vali-teenus">Vali teenus:</label></td>
+                <td>
+                    <select id="vali-teenus" name="teenus">
+                        <option value="odav">Odav 0,59€</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Roll:</label></td>
+                <td>
+                    <input type="radio" id="admin" name="roll" value="admin" required>
+                    <label for="admin">Admin</label>
+                    <input type="radio" id="moderaator" name="roll" value="moderaator">
+                    <label for="moderaator">Moderaator</label>
+                    <input type="radio" id="user" name="roll" value="user">
+                    <label for="user">User</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tingimused">Nõustun tingimustega:</label></td>
+                <td><input type="checkbox" id="tingimused" name="tingimused" required></td>
+            </tr>
+            <tr>
+                <td><label for="enesetutvustus">Enesetutvustus:</label></td>
+                <td><textarea id="enesetutvustus" name="enesetutvustus" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="reset">Tühjenda väljad</button>
+                    <button type="submit">Saada</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
