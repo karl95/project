@@ -1,3 +1,10 @@
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+},
+"homepage": "https://karl95.github.io/project"
+
 {
   "homepage": ""
   "name": "vite-react-typescript-starter",
