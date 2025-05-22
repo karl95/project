@@ -1,14 +1,14 @@
-"scripts": {
+{
    "name": "project",
   "version": "0.0.0",
   "private": true,
   "homepage": "https://karl95.github.io/project",
-  "scripts": {
+   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-},
+  },
 
 {
   "name": "vite-react-typescript-starter",
